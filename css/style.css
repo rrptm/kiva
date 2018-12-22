@@ -40,3 +40,30 @@
     background-color: #fff;
     border: 1px solid #a3a3a3;
 }
+
+.th-btn-inv-sm {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #a3a3a3 !important;
+    font-size: 1em;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #a3a3a3;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.clps {
+    border: solid 1px #a3a3a3;
+    padding: 15px 10px 0px 10px;
+    margin: 15px 0;
