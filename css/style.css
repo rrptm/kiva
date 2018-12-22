@@ -1,0 +1,42 @@
+.centerimg {
+  padding: 70px 0;
+}
+.th-btn {
+    line-height: 40px;
+    color: #fbfbfb;
+    font-size: 1.2em;
+    background-color: #000;
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 0px;
+
+}
+
+
+.th-form {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    border: solid 1px #a3a3a3;
+    margin: 5px 0;
+}
+.th-btn-inv {
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    height: 60px;
+    color: #a3a3a3 !important;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #fff;
+    border: 1px solid #a3a3a3;
+}
