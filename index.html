@@ -18,29 +18,60 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="100" height="auto" alt="">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
+        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">HOME
+                
+              </a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHOP
+               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Bracelets</a>
+                <a class="dropdown-item" href="#">Earrings</a>
+                <a class="dropdown-item" href="#">Neck Pieces</a>
+                <a class="dropdown-item" href="#">Rings</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                COLLECTION
+               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Reverie</a>
+                <a class="dropdown-item" href="#">Nook</a>
+                <a class="dropdown-item" href="#">Celebration</a>
+                <a class="dropdown-item" href="#">Aabroo</a>
+              </div>
+            </li>
+            
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img src="img/icon/user.png" width="20" height="auto" alt="" >
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="navbar-brand" href="#">
+                <img src="img/icon/cart.png" width="20" height="auto" alt="" >
+              </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+            
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button type="submit" class="btn th-btn"> Search</button>
-          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     </header>
 
     <main role="main">
@@ -144,23 +175,25 @@
           </div>
         </div>
 
-        <div class="container-fluid pb-5" style="background-color:#F6F6F6;padding-top: 60px;">
+        <div class="container-fluid pb-5" style="background-color:#F6F6F6;padding-top: 60px; ">
           <div class="col-md-12 " style="text-align: center">
             <h4>Be An Insider!</h4>
             <p>Be the first one to know about our latest collections. Promise we won't spam.</p>
             <hr style="width: 60px">
           </div>
-          <div class="container">
-          <div class="offset-md-4 col-md-4  sm-12 pt-3 pb-3">
-            <input type="email" placeholder="Your Email Address" aria-label="Your Email Address" class="form-control bg-transparent border-secondary border-right-0">
-          </div></div>
-        </div>
+          <div class="row">
+          <div class="container" style="position: relative;">
+          <div class="col-md-6 offset-md-3 th-pt" id="subcribed"> 
+          <input class="col-md-7 col-xs-6" type="email" id="subemail" style="height:60px;color:#000;font-size:16px; " placeholder="Get latest style and fashion updates">
+          <button class="col-md-4 col-xs-6 th-btn btn" type="submit" name="" onclick="javascript:subscribe('');">Subscribe</button>
+        </div></div></div>
+      </div>
 
 
         <div class="container-fluid pb-5" >
           <div class="col-md-12 " style="text-align: center; padding-top: 70px;">
             <h4>#SHOPKIVASTUDIO</h4>
-            <p style="padding-bottom: 150px;">We would love to hear your feedback. Write to us at <a href="mailto:hi@kivastudio.com">hi@kivastudio.com</a> </p>
+            <p style="padding-bottom: 150px;">We would love to hear your feedback. Write to us at <a href="mailto:hi@kivastudio.com" style="text-decoration: none;">hi@kivastudio.com</a> </p>
             <hr style="width: 60px;">
           </div>
         </div>
@@ -171,8 +204,31 @@
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="img/logo.png" alt="" width="75" height="75">
+            <small class="d-block mb-3 text-muted"></small>
+          </div>
+          <div class="col-6 col-md">
+            
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="about.html" style="text-decoration: none;">About us</a></li>
+              <li><a class="text-muted" href="product-care.html" style="text-decoration: none;">Product care</a></li>
+              <li><a class="text-muted" href="shipping.html" style="text-decoration: none;">Shipping + Return</a></li>
+              <li><a class="text-muted" href="wholesale.html" style="text-decoration: none;">Wholesale Inquiries</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#" style="text-decoration: none;">Facebook</a></li>
+              <li><a class="text-muted" href="#" style="text-decoration: none;">Instagram</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            
+          </div>
+        </div>
       </footer>
     </main>
 
