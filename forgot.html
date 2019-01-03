@@ -17,48 +17,78 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="100" height="auto" alt="">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
+        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">HOME
+                
+              </a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHOP
+               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Bracelets</a>
+                <a class="dropdown-item" href="#">Earrings</a>
+                <a class="dropdown-item" href="#">Neck Pieces</a>
+                <a class="dropdown-item" href="#">Rings</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                COLLECTION
+               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Reverie</a>
+                <a class="dropdown-item" href="#">Nook</a>
+                <a class="dropdown-item" href="#">Celebration</a>
+                <a class="dropdown-item" href="#">Aabroo</a>
+              </div>
+            </li>
+            
+            <li class="nav-item">
+              <a class="navbar-brand" href="profile.html">
+                <img src="img/icon/user.png" width="20" height="auto" alt="" >
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="navbar-brand" href="cart.html">
+                <img src="img/icon/cart.png" width="20" height="auto" alt="" >
+              </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+            
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn th-btn" type="submit">Search</button>
-          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     </header>
-
 <div class="offset-md-3 col-md-6">
-		<div class="col-md-12 text-center" style="padding: 20% 0;">
+		<div class="col-md-12 text-center" style="padding-top: 5%; padding-bottom: 10%;">
       <h1>Recover Password<span class="th-bold"></span></h1>
       <p>We will send you an email to reset your password.</p>
 
       <hr>
     </div>
-		<form action="https://www.designmee.in/signup/index" name="loginform" method="post" accept-charset="utf-8">
+		<form action="" name="loginform" method="post" accept-charset="utf-8">
            
-		  <div class="col-md-12">
+		  <div class="col-md-12 mb-3">
 		    <label>Email<span style="color: red;">*</span></label>
 		    <input type="email" class="th-btn-inv col-md-12 th-form" placeholder="Email" name="email">
 		  </div>
 		  
-		  <div class="col-md-3 offset-md-9 col-sm-12" style="padding-top:15px;">
-		  	<button type="submit" class="btn th-btn">Submit</button>
-		  </div>
+		  <div class="col-md-12">
+        <button class="btn th-btn pull-right" style="width: 100%;" type="submit">Submit</button>
+      </div>
 		</form>	
 </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

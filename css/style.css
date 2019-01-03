@@ -83,3 +83,24 @@ ul, menu, dir {
 }
 
 
+
+/* Tables */
+}
+.checkout-table {
+  border: 1px solid #e5e5e5;
+}
+.checkout-table tr td,
+.checkout-table tr th {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.checkout-table tbody tr td:first-child,
+.checkout-table tbody tr th:first-child {
+  max-width: 36px;
+}
+
+.pr-remove {
+  text-align: center;
+}
