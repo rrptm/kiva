@@ -1,3 +1,6 @@
+body{ font-family: 'Lato', sans-serif;
+padding-top: 0rem !important; }
+
 .centerimg {
   padding: 70px 0;
 }
@@ -7,8 +10,8 @@
     font-size: 1.2em;
     background-color: #000;
     height: 60px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 14px;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
@@ -68,3 +71,36 @@ ul, menu, dir {
     border: solid 1px #a3a3a3;
     padding: 15px 10px 0px 10px;
     margin: 15px 0;
+}
+.th-pt {
+    padding-top: 15px;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+
+
+/* Tables */
+}
+.checkout-table {
+  border: 1px solid #e5e5e5;
+}
+.checkout-table tr td,
+.checkout-table tr th {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.checkout-table tbody tr td:first-child,
+.checkout-table tbody tr th:first-child {
+  max-width: 36px;
+}
+
+.pr-remove {
+  text-align: center;
+}
